@@ -27,4 +27,6 @@ console.log(builder.getValue()); // "."
 builder.padStart('^');
 console.log(builder.getValue()); // "^."
 builder.padEnd('^');
-console.l;
+console.log(builder.getValue()); // "^.^"
+builder.padBoth('=');
+console.log(builder.getValue()); // "=^.^="
